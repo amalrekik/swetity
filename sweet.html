@@ -2,7 +2,9 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="/path/to/flickity.css" media="screen">
+
+	
+	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -17,7 +19,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+   
 	<style>
 h6 a:link {
   color: grey;
@@ -28,6 +30,7 @@ h6 a:link {
 h6 a:visited {
   color: grey;
   text-decoration: none;
+ 
 }
 
 h6 a:hover {
@@ -100,7 +103,9 @@ h4 a:active {
   text-decoration: none;
 } 
 
-
+::selection {
+			color: white;
+			background: grey;}
 
 	</style>
 	<title>
@@ -113,44 +118,44 @@ h4 a:active {
 <Body>
 	<!-- navbar -->
 	<nav class="sticky"  style="height:auto;" >
-		<div class="container " style="padding-bottom:20px;">
-			<div class="row;" >
-				<div id=blok0 class="col-md-1 col-sm-1 col-xs-1">
-
-				</div>
-
-				<div id=blok1 class="col-md-3 col-sm-11 col-xs-11" style=" padding-left: 1%;background: white; padding-top: 10px;">
-					<a class="titre" style="text-decoration: none;"><img src="R.png" alt="logoamal" width="40px" height="40px">
-					<b> <a href="#" style="color:rgb(70, 42, 12) ;text-decoration: none ;font-size:  2.5vw ;">SweeT<a style="color:rgb(113, 178, 48);font-size:  2.5vw ;">i</a><a style="color:rgb(70, 42, 12);font-size:  2.5vw ;">t</a><a style="color:rgb(233, 16, 67);font-size:  2.5vw ;">y</a> </a></a>
 		
-					</div>
+			<div class="grid-container00" style="padding-bottom:10px;">
+				<div id=blok0 class="vidgauche1"></div>
 
-				<div id=blok2 class="col-md-1 col-sm-4 col-xs-2" style=" text-align:right;background: white;">
-					<h6 class="h6"><a href="#home" style=" font-size: 1.5vw;">Home</a></h6>
+				<div id=blok1 class="titrepage1" style=" padding-left: 1%; padding-top: 10px;">
+					<img src="R.png" alt="logoamal" width="85%" height="85%">
+					
 				</div>
-				<div id=blok2 class="col-md-2 col-sm-2 col-xs-2" style=" text-align: center; background: white;">
-					<h6 class="h6"><a href="#aboutuss" style="font-size: 1.5vw " id="aboutus">about us</a></h6>
+               <div class="titrepage2 titre">
+				<a href="#" style="color:rgb(70, 42, 12) ;text-decoration: none ;font-size:  2.5vw ;">SweeT<a style="color:rgb(113, 178, 48);font-size:  2.5vw ;">i</a><a style="color:rgb(70, 42, 12);font-size:  2.5vw ;">t</a><a style="color:rgb(233, 16, 67);font-size:  2.5vw ;">y</a> </a>
+			   </div>
+				<div id=blok2 class="home1" >
+				<h6 class="h6"><a href="#home" class="ecrit">Home</a></h6>
+				</div>
+
+				<div id=blok3 class="aboutus1" >
+					<h6 class="h6"><a href="#aboutuss" id="aboutus" class="ecrit">about us</a></h6>
 				</div >
 
-				<div class="col-md-1 col-sm-1 col-xs-2" style=" text-align:center;  margin-left: 1vw; padding-left: 1vw;display:flex;align-items:center ;">
+				<div class="store1" >
 		          
-					<h6 class="h6"><a href="#boutiquee" style="font-size: 1.5vw " id="Store">Store</a></h6>		
+					<h6 class="h6"><a href="#boutiquee" id="Store" class="ecrit">Store</a></h6>		
 						
 
 				</div>
-				<div id=blok2 class="col-md-1 col-sm-1 col-xs-1" style=" text-align:right;background: white;">
-					<h6 class="h6"><a href="#ANNIF" style=" font-size: 1.5vw;">Annif</a></h6>
+				<div id=blok2 class="annif1" >
+				<h6 class="h6"><a href="#ANNIF" class="ecrit">Annif</a></h6>
 				</div>
-				<div class="col-md-1 col-sm-1 col-xs-2" style=" text-align:center;  margin-left: 1vw; padding-left: 1vw;display:flex;align-items:center ;">
+				<div class="avis1">
 		          
-					<h6 class="h6"><a href="#AVIS" style="font-size: 1.5vw " id="avi">Avis</a></h6>		
+					<h6 class="h6"><a href="#AVIS" id="avi" class="ecrit">Avis</a></h6>
 						
 
 				</div>
-				<div id=blok6 class="col-md-1 col-sm-2 col-xs-2" style="background:none; ">
+				<div id=blok6 class="panier1" style="background:none; ">
 					<div  
 		onclick="document.getElementById('id00').style.display='block'"  style="border: none;border-radius: 1vw;background:white;">
-					<h5 class="h6" style="background:none;"><a href="#PANIER" style="font-size: 1.5vw" id="total">Panier</a></h5> </div>
+					<h5 class="h6" style="background:none;"><a href="#PANIER" style="font-size: 1.5vw" id="total">Panier<sup id="indice" style="font-size: 1vw;padding-top:0.5px; padding-bottom:0.5px;padding-left:1.5px;padding-right:2px;border-radius:3px;"></sup></a></h5> </div>
 				
 					<div id="id00" class="w3-modal" >
 						<div class="w3-modal-content" style="width:400px">
@@ -162,7 +167,7 @@ h4 a:active {
 								<p   style="font-family: Lucida Sans Unicode; font-size: 1.2vw;text-align: center;"> 
 									total des articles de la boutique:<br> <a id="summe1" style="font-size: 2vw;">0</a>dt </p><br>
 										<p   style="font-family: Lucida Sans Unicode; font-size: 1.2vw;text-align: center;"> 
-										total de gâteau anniversaire:<br> <a id="summe1" style="font-size: 2vw;">0</a>dt </p><br><hr>
+										total de gâteau anniversaire:<br> <a id="summe2" style="font-size: 2vw;">0</a>dt </p><br><hr>
 										<p   style="font-family: Lucida Sans Unicode; font-size: 1.2vw;text-align: center;"> 
 										Pour confirmer la commande:<br> </p>
 										
@@ -225,25 +230,23 @@ h4 a:active {
 										
 											  <br>
 											  <div style="text-align: center;padding-bottom: 10px;" >
-											  <button type="submit" class="btn btn-primary" style="background:rgb(233, 16, 67);border: none;font-size: 20px;">Envoyez la commande</button>
-											  <span onclick="document.getElementById('id00').style.display='none'" style="background:grey ;padding: 18px;padding-top: 8px;padding-bottom:11px;border-radius: 2px;" ><a href="#annul" style="text-decoration: none; color:white">annuler la commande</a></span>
+											  <button type="submit" class="btn btn-primary" style="background:rgb(233, 16, 67);border: none;font-size: 20px;" id="envoi">Envoyez la commande</button>
+											  <span onclick="document.getElementById('id00').style.display='none'" style="background:grey ;padding: 18px;padding-top: 8px;padding-bottom:11px;border-radius: 2px;" id="annul"><a href="#annul" style="text-decoration: none; color:white">Vider le Panier</a></span>
 											
 											</div>
 											</form>
 						
 						</div>
 						</div>
-					</div>				
+					</div>			
 				
 				
 				</div>
-				<div id=blok7 class="col-md-1 col-sm-1 col-xs-1">
-
-				</div>
+				<div id=blok7 class="viddroite1"></div>
 
 
 			</div>
-		</div>
+		
 
 
 	</nav>
@@ -375,13 +378,14 @@ h4 a:active {
 			<div style="background:white; border: solid 1px;">
 				<img src="JWEJEM.jpg" alt="JWEJEM" width="100%" height="100%" style="border-radius: 7px;" >
 			    <figcaption class="bouphoto" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+				<div class="1">
+				<a href="#h1" class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h1"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h1"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h1"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h1"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a>
+			    </div>
 				
-				<a style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;color:gray"> &#9829; &#9829; &#9829; &#9829; &#9829;</a>
-				<br>
 				
-				<a style="background:rgb(53, 32, 9);color:white;padding: 0.2vw;border-radius: 5px;">0</a> <a >Jwejem</a> <a>à </a> <a>4 </a><a>dt </a><br>
+				<a style="background:rgb(53, 32, 9);color:white;padding: 0.2vw;border-radius: 5px;" class="num">1</a> <a > Jwejem</a> <a>à </a> <a class="sum">4</a><a> dt </a><br>
                     <div  class="flex-container6"   >
-					    <div ><a href="#commande" style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;text-decoration: none;background:rgb(75, 129, 21);">Commander</a></div>
+					    <div ><a href="#commande" style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;text-decoration: none;background:rgb(75, 129, 21);" class="commande">Commander</a></div>
 							<div class="w3-container" >
 								<button onclick="document.getElementById('id01').style.display='block'"  style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(171, 6, 44);">Détails</button>
 							  
@@ -421,25 +425,25 @@ h4 a:active {
 									</ul>
                                     <div style="text-align: right; padding-bottom: 2vw;" class="flex-container7">
 										<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
-											<div class="plus"><a>+</a></div>
-											<div class="moins"><a>-</a></div>
+											<div class="plus "><a href="#pl" class="plusN" style="text-decoration: none;color: white;">+</a></div>
+											<div class="moins "><a href="#mn" class="moinsN" style="text-decoration: none;color: white;">-</a></div>
 										</div>
 									
-									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(53, 32, 9);margin-right: 1vw;">Normal =<a>4</a>DT</button>
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(53, 32, 9);margin-right: 1vw;"><a class="nN">1</a>Normal =<a class="prixN">4</a>DT</button>
 									
 									<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
-										<div class="plushelth"><a>+</a></div>
-										<div class="moinshelth"><a>-</a></div>
+										<div class="plushelth "><a href="#pl" class="plusH" style="text-decoration: none;color: white;">+</a></div>
+										<div class="moinshelth "><a href="#mn" class="moinsH" style="text-decoration: none;color: white;">-</a></div>
 									</div>
 									
-									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: black;border: 0;padding-top: 0.8vw;background:rgb(113, 178, 48);margin-right: 1vw;">Healthy +1DT=<a>5</a>DT </button>
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(113, 178, 48);margin-right: 1vw;"><a class="nH">1</a>Healthy +1DT=<a class="prixH">5</a>DT </button>
 									
 									<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
-										<div class="plusgour"><a>+</a></div>
-										<div class="moinsgour"><a>-</a></div>
+										<div class="plusgour "><a href="#pl" class="plusG" style="text-decoration: none;color: white;">+</a></div>
+										<div class="moinsgour "><a href="#mn" class="moinsG" style="text-decoration: none;color: white;">-</a></div>
 									</div>
 									
-									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: black;border: 0;padding-top: 0.8vw;background:rgb(233, 16, 67);margin-right: 1vw;">gourmande +3DT=<a>7</a>DT</button>
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(233, 16, 67);margin-right: 1vw;"><a class="nG">1</a>gourmande +3DT=<a class="prixG">7</a>DT</button>
 								    </div>
 								  </div>
 								  </div>
@@ -455,13 +459,13 @@ h4 a:active {
 			<div style="background:white; border: solid 1px;">
 				<img src="DALILO1.jpg" alt="Daliloroché" width="100%" height="100%" style="border-radius: 7px;" >
 			    <figcaption class="bouphoto" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+				<div class="1">
+					<a href="#h2" class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h2"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h2"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h2"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h2"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a>
+				</div>
 				
-				<a style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;color:gray"> &#9829; &#9829; &#9829; &#9829; &#9829;</a>
-				<br>
-				
-				<a style="background:rgb(53, 32, 9);color:white;padding: 0.2vw;border-radius: 5px;">0</a> <a style="font-size:1.5vw;" >Kg Daliloroché</a> <a style="font-size:1.5vw;">à </a> <a style="font-size:1.5vw;">20 </a><a style="font-size:1.5vw;">dt </a><br>
+				<a style="background:rgb(53, 32, 9);color:white;padding: 0.2vw;border-radius: 5px;" class="num">1</a> <a style="font-size:1.5vw;" >Kg Daliloroché</a> <a style="font-size:1.5vw;">à </a> <a style="font-size:1.5vw;" class="sum">20 </a><a style="font-size:1.5vw;">dt </a><br>
                     <div  class="flex-container6"   >
-					    <div  ><a  href="#commande" style="font-size:1.2vw; padding: 1vw;border-radius: 1vw;color: white; text-decoration: none; background:rgb(75, 129, 21);">Commander</a></div>
+					    <div  ><a  href="#commande" style="font-size:1.2vw; padding: 1vw;border-radius: 1vw;color: white; text-decoration: none; background:rgb(75, 129, 21);" class="commande">Commander</a></div>
 							<div class="w3-container" >
 								<button onclick="document.getElementById('id02').style.display='block'"  style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(171, 6, 44);">Détails</button>
 							  
@@ -500,25 +504,25 @@ h4 a:active {
 									</ul>
                                     <div style="text-align: right; padding-bottom: 2vw;" class="flex-container7">
 										<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
-											<div class="plus"><a>+</a></div>
-											<div class="moins"><a>-</a></div>
+											<div class="plus"><a href="#pl1" class="plusN" style="text-decoration: none;color: white;">+</a></div>
+											<div class="moins"><a href="#mn1" class="moinsN" style="text-decoration: none;color: white;">-</a></div>
 										</div>
 									
-									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(53, 32, 9);margin-right: 1vw;">Normal =<a>20</a>DT</button>
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(53, 32, 9);margin-right: 1vw;"><a class="nN">1</a>Normal =<a class="prixN">20</a>DT</button>
 									
 									<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
-										<div class="plushelth"><a>+</a></div>
-										<div class="moinshelth"><a>-</a></div>
+										<div class="plushelth"><a href="#pl1" class="plusH" style="text-decoration: none;color: white;">+</a></div>
+										<div class="moinshelth"><a href="#mn1" class="moinsH" style="text-decoration: none;color: white;">-</a></div>
 									</div>
 									
-									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: black;border: 0;padding-top: 0.8vw;background:rgb(113, 178, 48);margin-right: 1vw;">Healthy +3DT=<a>23</a>DT </button>
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(113, 178, 48);margin-right: 1vw;"><a class="nH">1</a>Healthy +3DT=<a class="prixH">23</a>DT </button>
 									
 									<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
-										<div class="plusgour"><a>+</a></div>
-										<div class="moinsgour"><a>-</a></div>
+										<div class="plusgour"><a href="#pl1" class="plusG" style="text-decoration: none;color: white;">+</a></div>
+										<div class="moinsgour"><a href="#mn1" class="moinsG" style="text-decoration: none;color: white;">-</a></div>
 									</div>
 									
-									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: black;border: 0;padding-top: 0.8vw;background:rgb(233, 16, 67);margin-right: 1vw;">gourmande +10DT=<a>30</a>DT</button>
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(233, 16, 67);margin-right: 1vw;"><a class="nG">1</a>gourmande +10DT=<a class="prixG">30</a>DT</button>
 								    </div>
 								  </div>
 								  </div>
@@ -534,13 +538,13 @@ h4 a:active {
 			<div style="background:white; border: solid 1px;">
 				<img src="BAKLEVATURK.jpg" alt="baklewa" width="100%" height="100%" style="border-radius: 7px;" >
 			    <figcaption class="bouphoto" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+				<div class="1">
+					<a href="#h3" class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h3"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h3"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h3"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h3"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a>
+				</div>
 				
-				<a style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;color:gray"> &#9829; &#9829; &#9829; &#9829; &#9829;</a>
-				<br>
-				
-				<a style="background:rgb(53, 32, 9);color:white;padding: 0.2vw;border-radius: 5px;">0</a> <a style="font-size:1.5vw;" >Kg Baklava Turq</a> <a style="font-size:1.5vw;">à </a> <a style="font-size:1.5vw;">50 </a><a style="font-size:1.5vw;">dt </a><br>
+				<a style="background:rgb(53, 32, 9);color:white;padding: 0.2vw;border-radius: 5px;" class="num">1</a> <a style="font-size:1.5vw;" >Kg Baklava Turq</a> <a style="font-size:1.5vw;">à </a> <a style="font-size:1.5vw;" class="sum">50</a><a style="font-size:1.5vw;"> dt</a><br>
                     <div  class="flex-container6"   >
-					    <div ><a href="#commande" style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;text-decoration: none;background:rgb(75, 129, 21);">Commander</a></div>
+					    <div ><a href="#commande" style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;text-decoration: none;background:rgb(75, 129, 21);" class="commande">Commander</a></div>
 							<div class="w3-container" >
 								<button onclick="document.getElementById('id03').style.display='block'"  style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(171, 6, 44);">Détails</button>
 							  
@@ -578,25 +582,25 @@ h4 a:active {
 									</ul>
                                     <div style="text-align: right; padding-bottom: 2vw;" class="flex-container7">
 										<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
-											<div class="plus"><a>+</a></div>
-											<div class="moins"><a>-</a></div>
+											<div class="plus"><a href="#pl2" class="plusN" style="text-decoration: none;color: white;">+</a></div>
+											<div class="moins"><a href="#mn2" class="moinsN" style="text-decoration: none;color: white;">-</a></div>
 										</div>
 									
-									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(53, 32, 9);margin-right: 1vw;">Normal =<a>50</a>DT</button>
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(53, 32, 9);margin-right: 1vw;"><a class="nN">1</a>Normal =<a class="prixN">50</a>DT</button>
 									
 									<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
-										<div class="plushelth"><a>+</a></div>
-										<div class="moinshelth"><a>-</a></div>
+										<div class="plushelth"><a href="#pl2" class="plusH" style="text-decoration: none;color: white;">+</a></div>
+										<div class="moinshelth"><a  href="#mn2" class="moinsH" style="text-decoration: none;color: white;">-</a></div>
 									</div>
 									
-									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: black;border: 0;padding-top: 0.8vw;background:rgb(113, 178, 48);margin-right: 1vw;">Healthy +10DT=<a>60</a>DT </button>
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(113, 178, 48);margin-right: 1vw;"><a class="nH">1</a>Healthy +10DT=<a class="prixH">60</a>DT </button>
 									
 									<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
-										<div class="plusgour"><a>+</a></div>
-										<div class="moinsgour"><a>-</a></div>
+										<div class="plusgour"><a href="#pl2" class="plusG" style="text-decoration: none;color: white;">+</a></div>
+										<div class="moinsgour"><a  href="#mn2" class="moinsG" style="text-decoration: none;color: white;">-</a></div>
 									</div>
 									
-									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: black;border: 0;padding-top: 0.8vw;background:rgb(233, 16, 67);margin-right: 1vw;">gourmande +20DT=<a>70</a>DT</button>
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(233, 16, 67);margin-right: 1vw;"><a class="nG">1</a>gourmande +20DT=<a class="prixG">70</a>DT</button>
 								    </div>
 								  </div>
 								  </div>
@@ -612,13 +616,13 @@ h4 a:active {
 			<div style="background:white; border: solid 1px;">
 				<img src="assida1.jpg" alt="assidaa" width="100%" height="100%" style="border-radius: 7px;" >
 			    <figcaption class="bouphoto" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+				<div class="1">
+					<a href="#h4" class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h4"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h4"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h4"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h4"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a>
+				</div>
 				
-				<a style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;color:gray"> &#9829; &#9829; &#9829; &#9829; &#9829;</a>
-				<br>
-				
-				<a style="background:rgb(53, 32, 9);color:white;padding: 0.2vw;border-radius: 5px;">0</a> <a style="font-size:1.5vw;" >Assida noisette</a> <a style="font-size:1.5vw;">à </a> <a style="font-size:1.5vw;">5 </a><a style="font-size:1.5vw;">dt </a><br>
+				<a style="background:rgb(53, 32, 9);color:white;padding: 0.2vw;border-radius: 5px;" class="num">1</a> <a style="font-size:1.5vw;" >Assida noisette</a> <a style="font-size:1.5vw;">à </a> <a style="font-size:1.5vw;" class="sum">5</a><a style="font-size:1.5vw;"> dt</a><br>
                     <div  class="flex-container6"   >
-					    <div ><a href="#commande" style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;text-decoration: none;background:rgb(75, 129, 21);">Commander</a></div>
+					    <div ><a href="#commande" style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;text-decoration: none;background:rgb(75, 129, 21);" class="commande">Commander</a></div>
 							<div class="w3-container" >
 								<button onclick="document.getElementById('id04').style.display='block'"  style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(171, 6, 44);">Détails</button>
 							  
@@ -658,25 +662,25 @@ h4 a:active {
 									</ul>
                                     <div style="text-align: right; padding-bottom: 2vw;" class="flex-container7">
 										<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
-											<div class="plus"><a>+</a></div>
-											<div class="moins"><a>-</a></div>
+											<div class="plus"><a href="#pl3" class="plusN" style="text-decoration: none;color: white;">+</a></div>
+											<div class="moins"><a  href="#mn3" class="moinsN" style="text-decoration: none;color: white;">-</a></div>
 										</div>
 									
-									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(53, 32, 9);margin-right: 1vw;">Normal =<a>5</a>DT</button>
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(53, 32, 9);margin-right: 1vw;"><a class="nN">1</a>Normal =<a class="prixN">5</a>DT</button>
 									
 									<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
-										<div class="plushelth"><a>+</a></div>
-										<div class="moinshelth"><a>-</a></div>
+										<div class="plushelth"><a  href="#pl3" class="plusH" style="text-decoration: none;color: white;">+</a></div>
+										<div class="moinshelth"><a  href="#mn3" class="moinsH" style="text-decoration: none;color: white;">-</a></div>
 									</div>
 									
-									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: black;border: 0;padding-top: 0.8vw;background:rgb(113, 178, 48);margin-right: 1vw;">Healthy +1DT=<a>6</a>DT </button>
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(113, 178, 48);margin-right: 1vw;"><a class="nH">1</a>Healthy +1DT=<a class="prixH">6</a>DT </button>
 									
 									<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
-										<div class="plusgour"><a>+</a></div>
-										<div class="moinsgour"><a>-</a></div>
+										<div class="plusgour"><a  href="#pl3" class="plusG" style="text-decoration: none;color: white;">+</a></div>
+										<div class="moinsgour"><a   href="#mn3" class="moinsG" style="text-decoration: none;color: white;">-</a></div>
 									</div>
 									
-									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: black;border: 0;padding-top: 0.8vw;background:rgb(233, 16, 67);margin-right: 1vw;">gourmande +2DT=<a>7</a>DT</button>
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(233, 16, 67);margin-right: 1vw;"><a class="nG">1</a>gourmande +2DT=<a class="prixG">7</a>DT</button>
 								    </div>
 								  </div>
 								  </div>
@@ -693,13 +697,13 @@ h4 a:active {
 			<div style="background:white; border: solid 1px;">
 				<img src="tartefruit.jpg" alt="tartefruit" width="100%" height="100%" style="border-radius: 7px;" >
 			    <figcaption class="bouphoto" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+					<div class="1">
+					<a href="#h5" class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h5"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h5"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h5"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h5"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a>
+				</div>
 				
-				<a style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;color:gray"> &#9829; &#9829; &#9829; &#9829; &#9829;</a>
-				<br>
-				
-				<a style="background:rgb(53, 32, 9);color:white;padding: 0.2vw;border-radius: 5px;">0</a> <a style="font-size:1.5vw;" >Tarte fruits</a> <a style="font-size:1.5vw;">à </a> <a style="font-size:1.5vw;">30 </a><a style="font-size:1.5vw;">dt </a><br>
+				<a style="background:rgb(53, 32, 9);color:white;padding: 0.2vw;border-radius: 5px; " class="num">1</a> <a style="font-size:1.5vw;" >Tarte fruits</a> <a style="font-size:1.5vw;">à </a> <a style="font-size:1.5vw;" class="sum">30</a><a style="font-size:1.5vw;"> dt</a><br>
                     <div  class="flex-container6"   >
-					    <div ><a href="#commande" style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;text-decoration: none;background:rgb(75, 129, 21);">Commander</a></div>
+					    <div ><a href="#commande" style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;text-decoration: none;background:rgb(75, 129, 21);" class="commande">Commander</a></div>
 							<div class="w3-container" >
 								<button onclick="document.getElementById('id05').style.display='block'"  style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(171, 6, 44);">Détails</button>
 							  
@@ -739,25 +743,25 @@ h4 a:active {
 									</ul>
                                     <div style="text-align: right; padding-bottom: 2vw;" class="flex-container7">
 										<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
-											<div class="plus"><a>+</a></div>
-											<div class="moins"><a>-</a></div>
+											<div class="plus"><a  href="#pl4" class="plusN" style="text-decoration: none;color: white;">+</a></div>
+											<div class="moins"><a  href="#mn4" class="moinsN" style="text-decoration: none;color: white;">-</a></div>
 										</div>
 									
-									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(53, 32, 9);margin-right: 1vw;">Normal =<a>30</a>DT</button>
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(53, 32, 9);margin-right: 1vw;"><a class="nN">1</a>Normal =<a class="prixN">30</a>DT</button>
 									
 									<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
-										<div class="plushelth"><a>+</a></div>
-										<div class="moinshelth"><a>-</a></div>
+										<div class="plushelth"><a href="#pl4" class="plusH" style="text-decoration: none;color: white;">+</a></div>
+										<div class="moinshelth"><a href="#mn4" class="moinsH" style="text-decoration: none;color: white;">-</a></div>
 									</div>
 									
-									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: black;border: 0;padding-top: 0.8vw;background:rgb(113, 178, 48);margin-right: 1vw;">Healthy +3DT=<a>33</a>DT </button>
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(113, 178, 48);margin-right: 1vw;"><a class="nH">1</a>Healthy +3DT=<a class="prixH">33</a>DT </button>
 									
 									<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
-										<div class="plusgour"><a>+</a></div>
-										<div class="moinsgour"><a>-</a></div>
+										<div class="plusgour"><a href="#pl4" class="plusG" style="text-decoration: none;color: white;">+</a></div>
+										<div class="moinsgour"><a href="#mn4" class="moinsG" style="text-decoration: none;color: white;">-</a></div>
 									</div>
 									
-									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: black;border: 0;padding-top: 0.8vw;background:rgb(233, 16, 67);margin-right: 1vw;">gourmande +10DT=<a>40</a>DT</button>
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(233, 16, 67);margin-right: 1vw;"><a class="nG">1</a>gourmande +10DT=<a class="prixG">40</a>DT</button>
 								    </div>
 								  </div>
 								  </div>
@@ -773,13 +777,13 @@ h4 a:active {
 			<div style="background:white; border: solid 1px;">
 				<img src="SHEESEK.jpg" alt="SHEESE" width="100%" height="100%" style="border-radius: 7px;" >
 			    <figcaption class="bouphoto" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+					<div class="1">
+					<a href="#h6" class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h6"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h6"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h6"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h6"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a>
+				</div>
 				
-				<a style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;color:gray"> &#9829; &#9829; &#9829; &#9829; &#9829;</a>
-				<br>
-				
-				<a style="background:rgb(53, 32, 9);color:white;padding: 0.2vw;border-radius: 5px;">0</a> <a style="font-size:1.5vw;" >Coupe sheesecake</a> <a style="font-size:1.5vw;">à </a> <a style="font-size:1.5vw;">7 </a><a style="font-size:1.5vw;">dt </a><br>
+				<a style="background:rgb(53, 32, 9);color:white;padding: 0.2vw;border-radius: 5px;" class="num">1</a> <a style="font-size:1.5vw;" >sheesecake</a> <a style="font-size:1.5vw;">à </a> <a style="font-size:1.5vw;" class="sum">7</a><a style="font-size:1.5vw;"> dt</a><br>
                     <div  class="flex-container6"   >
-					    <div ><a href="#commande" style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;text-decoration: none;background:rgb(75, 129, 21);">Commander</a></div>
+					    <div ><a href="#commande" style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;text-decoration: none;background:rgb(75, 129, 21);" class="commande">Commander</a></div>
 							<div class="w3-container" >
 								<button onclick="document.getElementById('id06').style.display='block'"  style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(171, 6, 44);">Détails</button>
 							  
@@ -820,25 +824,25 @@ h4 a:active {
 									</ul>
                                     <div style="text-align: right; padding-bottom: 2vw;" class="flex-container7">
 										<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
-											<div class="plus"><a>+</a></div>
-											<div class="moins"><a>-</a></div>
+											<div class="plus"><a  href="#pl5" class="plusN" style="text-decoration: none;color: white;">+</a></div>
+											<div class="moins"><a href="#mn5" class="moinsN" style="text-decoration: none;color: white;">-</a></div>
 										</div>
 									
-									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(53, 32, 9);margin-right: 1vw;">Normal =<a>7</a>DT</button>
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(53, 32, 9);margin-right: 1vw;"><a class="nN">1</a>Normal =<a class="prixN">7</a>DT</button>
 									
 									<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
-										<div class="plushelth"><a>+</a></div>
-										<div class="moinshelth"><a>-</a></div>
+										<div class="plushelth"><a href="#pl5" class="plusH" style="text-decoration: none;color: white;">+</a></div>
+										<div class="moinshelth"><a href="#mn5" class="moinsH" style="text-decoration: none;color: white;">-</a></div>
 									</div>
 									
-									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: black;border: 0;padding-top: 0.8vw;background:rgb(113, 178, 48);margin-right: 1vw;">Healthy +1DT=<a>8</a>DT </button>
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(113, 178, 48);margin-right: 1vw;"><a class="nH">1</a>Healthy +1DT=<a class="prixH">8</a>DT </button>
 									
 									<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
-										<div class="plusgour"><a>+</a></div>
-										<div class="moinsgour"><a>-</a></div>
+										<div class="plusgour"><a href="#pl5" class="plusG" style="text-decoration: none;color: white;">+</a></div>
+										<div class="moinsgour"><a href="#mn5" class="moinsG" style="text-decoration: none;color: white;">-</a></div>
 									</div>
 									
-									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: black;border: 0;padding-top: 0.8vw;background:rgb(233, 16, 67);margin-right: 1vw;">gourmande +3DT=<a>10</a>DT</button>
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(233, 16, 67);margin-right: 1vw;"><a class="nG">1</a>gourmande +3DT=<a class="prixG">10</a>DT</button>
 								    </div>
 								  </div>
 								  </div>
@@ -855,13 +859,13 @@ h4 a:active {
 			<div style="background:white; border: solid 1px;">
 				<img src="CHOCO.jpg" alt="chocolat" width="100%" height="100%" style="border-radius: 7px;" >
 			    <figcaption class="bouphoto" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+					<div class="1">
+					<a href="#h7" class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h7"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h7"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h7"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h7"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a>
+				</div>
 				
-				<a style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;color:gray"> &#9829; &#9829; &#9829; &#9829; &#9829;</a>
-				<br>
-				
-				<a style="background:rgb(53, 32, 9);color:white;padding: 0.2vw;border-radius: 5px;">0</a> <a style="font-size:1.5vw;" >Coupe chocolat</a> <a style="font-size:1.5vw;">à </a> <a style="font-size:1.5vw;">5</a><a style="font-size:1.5vw;">dt </a><br>
+				<a style="background:rgb(53, 32, 9);color:white;padding: 0.2vw;border-radius: 5px;" class="num">1</a> <a style="font-size:1.5vw;" >Coupe chocolat</a> <a style="font-size:1.5vw;">à </a> <a style="font-size:1.5vw;" class="sum">5</a><a style="font-size:1.5vw;"> dt</a><br>
                     <div  class="flex-container6"   >
-					    <div ><a href="#commande" style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;text-decoration: none;background:rgb(75, 129, 21);">Commander</a></div>
+					    <div ><a href="#commande" style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;text-decoration: none;background:rgb(75, 129, 21);" class="commande">Commander</a></div>
 							<div class="w3-container" >
 								<button onclick="document.getElementById('id07').style.display='block'"  style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(171, 6, 44);">Détails</button>
 							  
@@ -894,18 +898,25 @@ h4 a:active {
 
                                     <div style="text-align: right; padding-bottom: 2vw;" class="flex-container7">
 										<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
-											<div class="plus"><a>+</a></div>
-											<div class="moins"><a>-</a></div>
+											<div class="plus"><a  href="#pl6" class="plusN" style="text-decoration: none;color: white;">+</a></div>
+											<div class="moins"><a href="#mn6" class="moinsN" style="text-decoration: none;color: white;">-</a></div>
 										</div>
 									
-									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(53, 32, 9);margin-right: 1vw;">Normal =<a>5</a>DT</button>
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(53, 32, 9);margin-right: 1vw;"><a class="nN">1</a>Normal =<a class="prixN">5</a>DT</button>
 									
 									
 									<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
-										<div class="plusgour"><a>+</a></div>
-										<div class="moinsgour"><a>-</a></div>
+										<div class="plushelth"><a href="#pl6" class="plusH" style="text-decoration: none;color: white;">+</a></div>
+										<div class="moinshelth"><a href="#mn6" class="moinsH" style="text-decoration: none;color: white;">-</a></div>
 									</div>
-									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: black;border: 0;padding-top: 0.8vw;background:rgb(233, 16, 67);margin-right: 1vw;">gourmande +3DT=<a>8</a>DT</button>
+									
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(113, 178, 48);margin-right: 1vw;"><a class="nH">1</a>No Healthy <a class="prixH">0</a>DT </button>
+								
+									<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
+										<div class="plusgour"><a  href="#pl6" class="plusG" style="text-decoration: none;color: white;">+</a></div>
+										<div class="moinsgour"><a href="#mn6" class="moinsG" style="text-decoration: none;color: white;">-</a></div>
+									</div>
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(233, 16, 67);margin-right: 1vw;"><a class="nG">1</a>gourmande +3DT=<a class="prixG">8</a>DT</button>
 								
 								
 								</div>
@@ -923,13 +934,13 @@ h4 a:active {
 			<div style="background:white; border: solid 1px;">
 				<img src="datefarce.jpg" alt="date" width="100%" height="100%" style="border-radius: 7px;" >
 			    <figcaption class="bouphoto" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+					<div class="1">
+					<a href="#h8" class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h8"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h8"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h8"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h8"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a>
+				</div>
 				
-				<a style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;color:gray"> &#9829; &#9829; &#9829; &#9829; &#9829;</a>
-				<br>
-				
-				<a style="background:rgb(53, 32, 9);color:white;padding: 0.2vw;border-radius: 5px;">0</a> <a style="font-size:1.5vw;" >kg Dattes farcies</a> <a style="font-size:1.5vw;">à </a> <a style="font-size:1.5vw;">15</a><a style="font-size:1.5vw;">dt </a><br>
+				<a style="background:rgb(53, 32, 9);color:white;padding: 0.2vw;border-radius: 5px;" class="num">1</a> <a style="font-size:1.5vw;" >kg Dattes farcies</a> <a style="font-size:1.5vw;">à </a> <a style="font-size:1.5vw;" class="sum">15</a><a style="font-size:1.5vw;"> dt</a><br>
                     <div  class="flex-container6"   >
-					    <div ><a href="#commande" style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;text-decoration: none;background:rgb(75, 129, 21);">Commander</a></div>
+					    <div ><a href="#commande" style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;text-decoration: none;background:rgb(75, 129, 21);" class="commande">Commander</a></div>
 							<div class="w3-container" >
 								<button onclick="document.getElementById('id08').style.display='block'"  style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(171, 6, 44);">Détails</button>
 							  
@@ -961,20 +972,26 @@ h4 a:active {
 									</ul>
                                     <div style="text-align: right; padding-bottom: 2vw;" class="flex-container7">
 										<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
-											<div class="plus"><a>+</a></div>
-											<div class="moins"><a>-</a></div>
+											<div class="plus"><a  href="#pl7" class="plusN" style="text-decoration: none;color: white;">+</a></div>
+											<div class="moins"><a href="#mn7" class="moinsN" style="text-decoration: none;color: white;">-</a></div>
 										</div>
 									
-									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(53, 32, 9);margin-right: 1vw;">Normal =<a>15</a>DT</button>
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(53, 32, 9);margin-right: 1vw;"><a class="nN">1</a>Normal =<a class="prixN">15</a>DT</button>
 									
 									<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
-										<div class="plushelth"><a>+</a></div>
-										<div class="moinshelth"><a>-</a></div>
+										<div class="plushelth"><a  href="#pl7" class="plusH" style="text-decoration: none;color: white;">+</a></div>
+										<div class="moinshelth"><a href="#mn7" class="moinsH" style="text-decoration: none;color: white;">-</a></div>
 									</div>
 									
-									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: black;border: 0;padding-top: 0.8vw;background:rgb(113, 178, 48);margin-right: 1vw;">Healthy +3DT=<a>18</a>DT </button>
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(113, 178, 48);margin-right: 1vw;"><a class="nH">1</a>Healthy +3DT=<a class="prixH">18</a>DT </button>
 									  
-
+									<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
+										<div class="plusgour"><a href="#pl7" class="plusG" style="text-decoration: none;color: white;">+</a></div>
+										<div class="moinsgour"><a href="#mn7" class="moinsG" style="text-decoration: none;color: white;">-</a></div>
+									</div>
+									
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(233, 16, 67);margin-right: 1vw;"><a class="nG">1</a>NO gourmande=<a class="prixG">0</a>DT</button>
+							
                                   </div>
 								  </div>
 								  </div>
@@ -992,13 +1009,13 @@ h4 a:active {
 			<div style="background:white; border: solid 1px;">
 				<img src="DISPACITO.jpg" alt="DISPACITO" width="100%" height="100%" style="border-radius: 7px;" >
 			    <figcaption class="bouphoto" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+					<div class="1">
+					<a href="#h9" class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h9"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h9"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h9"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h9"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a>
+				</div>
 				
-				<a style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;color:gray"> &#9829; &#9829; &#9829; &#9829; &#9829;</a>
-				<br>
-				
-				<a style="background:rgb(53, 32, 9);color:white;padding: 0.2vw;border-radius: 5px;">0</a> <a style="font-size:1.5vw;" >DISPACITO</a> <a style="font-size:1.5vw;">à </a> <a style="font-size:1.5vw;">35</a><a style="font-size:1.5vw;">dt </a><br>
+				<a style="background:rgb(53, 32, 9);color:white;padding: 0.2vw;border-radius: 5px;" class="num">1</a> <a style="font-size:1.5vw;" >DISPACITO</a> <a style="font-size:1.5vw;">à </a> <a style="font-size:1.5vw;" class="sum">35</a><a style="font-size:1.5vw;"> dt</a><br>
                     <div  class="flex-container6"   >
-					    <div ><a href="#commande" style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;text-decoration: none;background:rgb(75, 129, 21);">Commander</a></div>
+					    <div ><a href="#commande" style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;text-decoration: none;background:rgb(75, 129, 21);" class="commande">Commander</a></div>
 							<div class="w3-container" >
 								<button onclick="document.getElementById('id09').style.display='block'"  style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(171, 6, 44);">Détails</button>
 							  
@@ -1029,18 +1046,25 @@ h4 a:active {
 
                                     <div style="text-align: right; padding-bottom: 2vw;" class="flex-container7">
 										<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
-											<div class="plus"><a>+</a></div>
-											<div class="moins"><a>-</a></div>
+											<div class="plus"><a   href="#pl8" class="plusN" style="text-decoration: none;color: white;">+</a></div>
+											<div class="moins"><a href="#mn8" class="moinsN" style="text-decoration: none;color: white;">-</a></div>
 										</div>
 									
-									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(53, 32, 9);margin-right: 1vw;">Normal =<a>35</a>DT</button>
-									
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(53, 32, 9);margin-right: 1vw;"><a class="nN">1</a>Normal =<a class="prixN">35</a>DT</button>
 									
 									<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
-										<div class="plusgour"><a>+</a></div>
-										<div class="moinsgour"><a>-</a></div>
+										<div class="plushelth"><a href="#pl8" class="plusH" style="text-decoration: none;color: white;">+</a></div>
+										<div class="moinshelth"><a href="#mn8" class="moinsH" style="text-decoration: none;color: white;">-</a></div>
 									</div>
-									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: black;border: 0;padding-top: 0.8vw;background:rgb(233, 16, 67);margin-right: 1vw;">gourmande +10DT=<a>45</a>DT</button>
+									
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(113, 178, 48);margin-right: 1vw;"><a class="nH">1</a>No Healthy <a class="prixH">0</a>DT </button>
+								
+									
+									<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
+										<div class="plusgour"><a   href="#pl8" class="plusG" style="text-decoration: none;color: white;">+</a></div>
+										<div class="moinsgour"><a href="#mn8" class="moinsG" style="text-decoration: none;color: white;">-</a></div>
+									</div>
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(233, 16, 67);margin-right: 1vw;"><a class="nG">1</a>gourmande +10DT=<a class="prixG">45</a>DT</button>
 								
 								
 								</div>
@@ -1059,13 +1083,13 @@ h4 a:active {
 			<div style="background:white; border: solid 1px;">
 				<img src="KOUNEFA1.jpg" alt="KOUNEFA" width="100%" height="100%" style="border-radius: 7px;" >
 			    <figcaption class="bouphoto" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+					<div class="1">
+					<a href="#h10" class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h10"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h10"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h10"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h10"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a>
+				</div>
 				
-				<a style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;color:gray"> &#9829; &#9829; &#9829; &#9829; &#9829;</a>
-				<br>
-				
-				<a style="background:rgb(53, 32, 9);color:white;padding: 0.2vw;border-radius: 5px;">0</a> <a style="font-size:1.5vw;" >Kunefa</a> <a style="font-size:1.5vw;">à </a> <a style="font-size:1.5vw;">15</a><a style="font-size:1.5vw;">dt </a><br>
+				<a style="background:rgb(53, 32, 9);color:white;padding: 0.2vw;border-radius: 5px;" class="num">1</a> <a style="font-size:1.5vw;" >Kunefa</a> <a style="font-size:1.5vw;">à </a> <a style="font-size:1.5vw;" class="sum">15</a><a style="font-size:1.5vw;"> dt</a><br>
                     <div  class="flex-container6"   >
-					    <div ><a href="#commande" style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;text-decoration: none;background:rgb(75, 129, 21);">Commander</a></div>
+					    <div ><a href="#commande" style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;text-decoration: none;background:rgb(75, 129, 21);" class="commande">Commander</a></div>
 							<div class="w3-container" >
 								<button onclick="document.getElementById('id10').style.display='block'"  style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(171, 6, 44);">Détails</button>
 							  
@@ -1089,18 +1113,24 @@ h4 a:active {
 
                                     <div style="text-align: right; padding-bottom: 2vw;" class="flex-container7">
 										<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
-											<div class="plus"><a>+</a></div>
-											<div class="moins"><a>-</a></div>
+											<div class="plus"><a href="#pl9" class="plusN" style="text-decoration: none;color: white;">+</a></div>
+											<div class="moins"><a href="#mn9" class="moinsN" style="text-decoration: none;color: white;">-</a></div>
 										</div>
 									
-									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(53, 32, 9);margin-right: 1vw;">Normal =<a>15</a>DT</button>
-									
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(53, 32, 9);margin-right: 1vw;"><a class="nN">1</a>Normal =<a class="prixN">15</a>DT</button>
 									
 									<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
-										<div class="plusgour"><a>+</a></div>
-										<div class="moinsgour"><a>-</a></div>
+										<div class="plushelth"><a href="#pl9" class="plusH" style="text-decoration: none;color: white;">+</a></div>
+										<div class="moinshelth"><a href="#mn9" class="moinsH" style="text-decoration: none;color: white;">-</a></div>
 									</div>
-									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: black;border: 0;padding-top: 0.8vw;background:rgb(233, 16, 67);margin-right: 1vw;">Dim XL +10DT=<a>25</a>DT</button>
+									
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(113, 178, 48);margin-right: 1vw;"><a class="nH">1</a>No Healthy <a class="prixH">0</a>DT </button>
+								
+									<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
+										<div class="plusgour"><a href="#pl9" class="plusG" style="text-decoration: none;color: white;">+</a></div>
+										<div class="moinsgour"><a href="#mn9" class="moinsG" style="text-decoration: none;color: white;">-</a></div>
+									</div>
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(233, 16, 67);margin-right: 1vw;"><a class="nG">1</a>Dim XL +10DT=<a class="prixG">25</a>DT</button>
 								
 								
 								</div>
@@ -1119,13 +1149,13 @@ h4 a:active {
 			<div style="background:white; border: solid 1px;">
 				<img src="OURTA.jpg" alt="OURTA" width="100%" height="100%" style="border-radius: 7px;" >
 			    <figcaption class="bouphoto" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+					<div class="1">
+					<a href="#h11" class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h11"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h11"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h11"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h11"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a>
+				</div>
 				
-				<a style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;color:gray"> &#9829; &#9829; &#9829; &#9829; &#9829;</a>
-				<br>
-				
-				<a style="background:rgb(53, 32, 9);color:white;padding: 0.2vw;border-radius: 5px;">0</a> <a style="font-size:1.5vw;" >Ourta Tunisienne</a> <a style="font-size:1.5vw;">à </a> <a style="font-size:1.5vw;">15</a><a style="font-size:1.5vw;">dt </a><br>
+				<a style="background:rgb(53, 32, 9);color:white;padding: 0.2vw;border-radius: 5px;" class="num">1</a> <a style="font-size:1.5vw;" >Ourta Tunisie</a> <a style="font-size:1.5vw;">à </a> <a style="font-size:1.5vw;" class="sum">15</a><a style="font-size:1.5vw;"> dt</a><br>
                     <div  class="flex-container6"   >
-					    <div ><a href="#commande" style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;text-decoration: none;background:rgb(75, 129, 21);">Commander</a></div>
+					    <div ><a href="#commande" style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;text-decoration: none;background:rgb(75, 129, 21);" class="commande">Commander</a></div>
 							<div class="w3-container" >
 								<button onclick="document.getElementById('id11').style.display='block'"  style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(171, 6, 44);">Détails</button>
 							  
@@ -1150,18 +1180,25 @@ h4 a:active {
 
                                     <div style="text-align: right; padding-bottom: 2vw;" class="flex-container7">
 										<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
-											<div class="plus"><a>+</a></div>
-											<div class="moins"><a>-</a></div>
+											<div class="plus"><a href="#pl10" class="plusN" style="text-decoration: none;color: white;">+</a></div>
+											<div class="moins"><a href="#mn10" class="moinsN" style="text-decoration: none;color: white;">-</a></div>
 										</div>
 									
-									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(53, 32, 9);margin-right: 1vw;">Normal =<a>15</a>DT</button>
-									
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(53, 32, 9);margin-right: 1vw;"><a class="nN">1</a>Normal =<a class="prixN">15</a>DT</button>
 									
 									<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
-										<div class="plusgour"><a>+</a></div>
-										<div class="moinsgour"><a>-</a></div>
+										<div class="plushelth"><a href="#pl10" class="plusH" style="text-decoration: none;color: white;">+</a></div>
+										<div class="moinshelth"><a href="#mn10" class="moinsH" style="text-decoration: none;color: white;">-</a></div>
 									</div>
-									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: black;border: 0;padding-top: 0.8vw;background:rgb(233, 16, 67);margin-right: 1vw;">Dim XL +10DT=<a>25</a>DT</button>
+									
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(113, 178, 48);margin-right: 1vw;"><a class="nH">1</a>No Healthy <a class="prixH">0</a>DT </button>
+								
+									
+									<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
+										<div class="plusgour"><a href="#pl10" class="plusG" style="text-decoration: none;color: white;">+</a></div>
+										<div class="moinsgour"><a href="#mn10" class="moinsG" style="text-decoration: none;color: white;">-</a></div>
+									</div>
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(233, 16, 67);margin-right: 1vw;"><a class="nG">1</a>Dim XL +10DT=<a class="prixG">25</a>DT</button>
 								
 								
 								</div>
@@ -1179,13 +1216,13 @@ h4 a:active {
 			<div style="background:white; border: solid 1px;">
 				<img src="JILJLEN.jpg" alt="JELJLEN" width="100%" height="100%" style="border-radius: 7px;" >
 			    <figcaption class="bouphoto" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+					<div class="1">
+					<a href="#h12" class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h12"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h12"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h12"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h12"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a>
+				</div>
 				
-				<a style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;color:gray"> &#9829; &#9829; &#9829; &#9829; &#9829;</a>
-				<br>
-				
-				<a style="background:rgb(53, 32, 9);color:white;padding: 0.2vw;border-radius: 5px;">0</a> <a style="font-size:1.5vw;" >Assida Jeljlen</a> <a style="font-size:1.5vw;">à </a> <a style="font-size:1.5vw;">3</a><a style="font-size:1.5vw;">dt </a><br>
+				<a style="background:rgb(53, 32, 9);color:white;padding: 0.2vw;border-radius: 5px;" class="num">1</a> <a style="font-size:1.5vw;" >Assida Jeljlen</a> <a style="font-size:1.5vw;">à </a> <a style="font-size:1.5vw;" class="sum">3</a><a style="font-size:1.5vw;"> dt</a><br>
                     <div  class="flex-container6"   >
-					    <div ><a href="#commande" style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;text-decoration: none;background:rgb(75, 129, 21);">Commander</a></div>
+					    <div ><a href="#commande" style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;text-decoration: none;background:rgb(75, 129, 21);" class="commande">Commander</a></div>
 							<div class="w3-container" >
 								<button onclick="document.getElementById('id12').style.display='block'"  style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(171, 6, 44);">Détails</button>
 							  
@@ -1219,20 +1256,26 @@ h4 a:active {
 									</ul>
                                     <div style="text-align: right; padding-bottom: 2vw;" class="flex-container7">
 										<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
-											<div class="plus"><a>+</a></div>
-											<div class="moins"><a>-</a></div>
+											<div class="plus"><a href="#pl11" class="plusN" style="text-decoration: none;color: white;">+</a></div>
+											<div class="moins"><a href="#mn11" class="moinsN" style="text-decoration: none;color: white;">-</a></div>
 										</div>
 									
-									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(53, 32, 9);margin-right: 1vw;">Normal =<a>3</a>DT</button>
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(53, 32, 9);margin-right: 1vw;"><a class="nN">1</a>Normal =<a class="prixN">3</a>DT</button>
 									
 									<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
-										<div class="plushelth"><a>+</a></div>
-										<div class="moinshelth"><a>-</a></div>
+										<div class="plushelth"><a href="#pl11" class="plusH" style="text-decoration: none;color: white;">+</a></div>
+										<div class="moinshelth"><a href="#mn11" class="moinsH" style="text-decoration: none;color: white;">-</a></div>
 									</div>
 									
-									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: black;border: 0;padding-top: 0.8vw;background:rgb(113, 178, 48);margin-right: 1vw;">Healthy +2DT=<a>5</a>DT </button>
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(113, 178, 48);margin-right: 1vw;"><a class="nH">1</a>Healthy +2DT=<a class="prixH">5</a>DT </button>
 									  
-
+									<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
+										<div class="plusgour"><a href="#pl11" class="plusG" style="text-decoration: none;color: white;">+</a></div>
+										<div class="moinsgour"><a href="#mn11" class="moinsG" style="text-decoration: none;color: white;">-</a></div>
+									</div>
+									
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(233, 16, 67);margin-right: 1vw;"><a class="nG">1</a>NO gourmande=<a class="prixG">0</a>DT</button>
+					
                                   </div>
 								  </div>
 								  </div>
@@ -1248,13 +1291,13 @@ h4 a:active {
 			<div style="background:white; border: solid 1px;">
 				<img src="LAKLOUKA.jpg" alt="LAKLOUKA" width="100%" height="100%" style="border-radius: 7px;" >
 			    <figcaption class="bouphoto" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+					<div class="1">
+					<a href="#h13" class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h13"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h13"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h13"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h13"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a>
+				</div>
 				
-				<a style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;color:gray"> &#9829; &#9829; &#9829; &#9829; &#9829;</a>
-				<br>
-				
-				<a style="background:rgb(53, 32, 9);color:white;padding: 0.2vw;border-radius: 5px;">0</a> <a style="font-size:1.3vw;" >Laklouka Sfaxienne</a> <a style="font-size:1.3vw;">à </a> <a style="font-size:1.3vw;">25</a><a style="font-size:1.3vw;">dt </a><br>
+				<a style="background:rgb(53, 32, 9);color:white;padding: 0.2vw;border-radius: 5px;" class="num">1</a> <a style="font-size:1.3vw;" >Laklouka Sfaxienne</a> <a style="font-size:1.3vw;">à </a> <a style="font-size:1.3vw;" class="sum">25</a><a style="font-size:1.3vw;"> dt</a><br>
                     <div  class="flex-container6"   >
-					    <div ><a href="#commande" style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;text-decoration: none;background:rgb(75, 129, 21);">Commander</a></div>
+					    <div ><a href="#commande" style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;text-decoration: none;background:rgb(75, 129, 21);" class="commande">Commander</a></div>
 							<div class="w3-container" >
 								<button onclick="document.getElementById('id13').style.display='block'"  style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(171, 6, 44);">Détails</button>
 							  
@@ -1287,18 +1330,26 @@ h4 a:active {
 									</ul>
                                     <div style="text-align: right; padding-bottom: 2vw;" class="flex-container7">
 										<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
-											<div class="plus"><a>+</a></div>
-											<div class="moins"><a>-</a></div>
+											<div class="plus"><a href="#pl12" class="plusN" style="text-decoration: none;color: white;">+</a></div>
+											<div class="moins"><a href="#mn12" class="moinsN" style="text-decoration: none;color: white;">-</a></div>
 										</div>
 									
-									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(53, 32, 9);margin-right: 1vw;">Normal =<a>25</a>DT</button>
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(53, 32, 9);margin-right: 1vw;"><a class="nN">1</a>Normal =<a class="prixN">25</a>DT</button>
 									
 									<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
-										<div class="plusgour"><a>+</a></div>
-										<div class="moinsgour"><a>-</a></div>
+										<div class="plushelth"><a href="#pl12" class="plusH" style="text-decoration: none;color: white;">+</a></div>
+										<div class="moinshelth"><a href="#mn12" class="moinsH" style="text-decoration: none;color: white;">-</a></div>
 									</div>
 									
-									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: black;border: 0;padding-top: 0.8vw;background:rgb(233, 16, 67);margin-right: 1vw;">gourmande +10DT=<a>35</a>DT </button>
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(113, 178, 48);margin-right: 1vw;"><a class="nH">1</a>No Healthy <a class="prixH">0</a>DT </button>
+							
+
+									<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
+										<div class="plusgour"><a href="#pl12" class="plusG" style="text-decoration: none;color: white;">+</a></div>
+										<div class="moinsgour"><a href="#mn12" class="moinsG" style="text-decoration: none;color: white;">-</a></div>
+									</div>
+									
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(233, 16, 67);margin-right: 1vw;"><a class="nG">1</a>gourmande +10DT=<a class="prixG">35</a>DT </button>
 									  
 
                                   </div>
@@ -1316,13 +1367,13 @@ h4 a:active {
 			<div style="background:white; border: solid 1px;">
 				<img src="BASBOUSSA.jpg" alt="BASBOUSSA" width="100%" height="100%" style="border-radius: 7px;" >
 			    <figcaption class="bouphoto" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+					<div class="1">
+					<a href="#h14" class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h14"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h14"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h14"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h14"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a>
+				</div>
 				
-				<a style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;color:gray"> &#9829; &#9829; &#9829; &#9829; &#9829;</a>
-				<br>
-				
-				<a style="background:rgb(53, 32, 9);color:white;padding: 0.2vw;border-radius: 5px;">0</a> <a style="font-size:1.2vw;" >Basbousa Iraquienne</a> <a style="font-size:1.2vw;">à </a> <a style="font-size:1.2vw;">15</a><a style="font-size:1.2vw;">dt </a><br>
+				<a style="background:rgb(53, 32, 9);color:white;padding: 0.2vw;border-radius: 5px;" class="num">1</a> <a style="font-size:1.2vw;" >Basbousa Iraquienne</a> <a style="font-size:1.2vw;">à </a> <a style="font-size:1.2vw;" class="sum">15</a><a style="font-size:1.2vw;"> dt</a><br>
                     <div  class="flex-container6"   >
-					    <div ><a href="#commande" style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;text-decoration: none;background:rgb(75, 129, 21);">Commander</a></div>
+					    <div ><a href="#commande" style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;text-decoration: none;background:rgb(75, 129, 21);" class="commande">Commander</a></div>
 							<div class="w3-container" >
 								<button onclick="document.getElementById('id14').style.display='block'"  style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(171, 6, 44);">Détails</button>
 							  
@@ -1339,7 +1390,6 @@ h4 a:active {
 										<li> farine</li>
 										<li> fruits sec</li>
 										<li> sirop sucré</li>
-										
 									  </ul>
 
 									 <p style="text-align:left ;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 1.5vw;">Avec une composition <a style="color:rgb(233, 16, 67);">gourmande</a> </p>
@@ -1354,18 +1404,25 @@ h4 a:active {
 									  </ul>
                                       <div style="text-align: right; padding-bottom: 2vw;" class="flex-container7">
 										<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
-											<div class="plus"><a>+</a></div>
-											<div class="moins"><a>-</a></div>
+											<div class="plus"><a href="#pl13" class="plusN" style="text-decoration: none;color: white;">+</a></div>
+											<div class="moins"><a href="#mn13" class="moinsN" style="text-decoration: none;color: white;">-</a></div>
 										</div>
 									
-									 <button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(53, 32, 9);margin-right: 1vw;">Normal =<a>15</a>DT</button>
+									 <button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(53, 32, 9);margin-right: 1vw;"><a class="nN">1</a>Normal =<a class="prixN">15</a>DT</button>
 									
 									 <div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
-										<div class="plusgour"><a>+</a></div>
-										<div class="moinsgour"><a>-</a></div>
+										<div class="plushelth"><a href="#pl13" class="plusH" style="text-decoration: none;color: white;">+</a></div>
+										<div class="moinshelth"><a href="#mn13" class="moinsH" style="text-decoration: none;color: white;">-</a></div>
+									</div>
+									
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(113, 178, 48);margin-right: 1vw;"><a class="nH">1</a>No Healthy <a class="prixH">0</a>DT </button>
+							
+									 <div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
+										<div class="plusgour"><a href="#pl13" class="plusG" style="text-decoration: none;color: white;">+</a></div>
+										<div class="moinsgour"><a href="#mn13" class="moinsG" style="text-decoration: none;color: white;">-</a></div>
 									 </div>
 									
-									 <button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: black;border: 0;padding-top: 0.8vw;background:rgb(233, 16, 67);margin-right: 1vw;">gourmande +3DT=<a>18</a>DT </button>
+									 <button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(233, 16, 67);margin-right: 1vw;"><a class="nG">1</a>gourmande +3DT=<a class="prixG">18</a>DT </button>
 									  
 
                                   </div>
@@ -1383,13 +1440,13 @@ h4 a:active {
 			<div style="background:white; border: solid 1px;">
 				<img src="gcda.jpg" alt="courantdair" width="100%" height="100%" style="border-radius: 7px;" >
 			    <figcaption class="bouphoto" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+					<div class="1">
+					<a href="#h15" class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h15"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h15"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h15"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a><a href="#h15"  class="coeur" style="color: grey;text-decoration: none;"> &#9829;</a>
+				</div>
 				
-				<a style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;color:gray"> &#9829; &#9829; &#9829; &#9829; &#9829;</a>
-				<br>
-				
-				<a style="background:rgb(53, 32, 9);color:white;padding: 0.2vw;border-radius: 5px;">0</a> <a style="font-size:1.2vw;" >Gteau courant d'air</a> <a style="font-size:1.2vw;">à </a> <a style="font-size:1.2vw;">15</a><a style="font-size:1.2vw;">dt </a><br>
+				<a style="background:rgb(53, 32, 9);color:white;padding: 0.2vw;border-radius: 5px;" class="num">1</a> <a style="font-size:1.2vw;" >Gteau courant d'air</a> <a style="font-size:1.2vw;">à </a> <a style="font-size:1.2vw;" class="sum">15</a><a style="font-size:1.2vw;"> dt</a><br>
                     <div  class="flex-container6"   >
-					    <div ><a href="#commande" style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;text-decoration: none;background:rgb(75, 129, 21);">Commander</a></div>
+					    <div ><a href="#commande" style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;text-decoration: none;background:rgb(75, 129, 21);" class="commande">Commander</a></div>
 							<div class="w3-container" >
 								<button onclick="document.getElementById('id15').style.display='block'"  style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(171, 6, 44);">Détails</button>
 							  
@@ -1424,18 +1481,26 @@ h4 a:active {
 									</ul>
                                     <div style="text-align: right; padding-bottom: 2vw;" class="flex-container7">
 										<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
-											<div class="plus"><a>+</a></div>
-											<div class="moins"><a>-</a></div>
+											<div class="plus"><a href="#pl14" class="plusN" style="text-decoration: none;color: white;">+</a></div>
+											<div class="moins"><a href="#pl14" class="moinsN" style="text-decoration: none;color: white;">-</a></div>
 										</div>
 									
-									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(53, 32, 9);margin-right: 1vw;">Normal =<a>15</a>DT</button>
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(53, 32, 9);margin-right: 1vw;"><a class="nN">1</a>Normal =<a class="prixN">15</a>DT</button>
 									
 									<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
-										<div class="plusgour"><a>+</a></div>
-										<div class="moinsgour"><a>-</a></div>
+										<div class="plushelth"><a href="#pl14" class="plusH" style="text-decoration: none;color: white;">+</a></div>
+										<div class="moinshelth"><a href="#mn14" class="moinsH" style="text-decoration: none;color: white;">-</a></div>
 									</div>
 									
-									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: black;border: 0;padding-top: 0.8vw;background:rgb(233, 16, 67);margin-right: 1vw;">gourmande +10DT=<a>25</a>DT </button>
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(113, 178, 48);margin-right: 1vw;"><a class="nH">1</a>No Healthy <a class="prixH">0</a>DT </button>
+							
+
+									<div style="font-size:1.5vw; line-height: 1.6vw ;padding-right: 0.2vw;">
+										<div class="plusgour"><a href="#pl14" class="plusG" style="text-decoration: none;color: white;">+</a></div>
+										<div class="moinsgour"><a href="#mn14" class="moinsG" style="text-decoration: none;color: white;">-</a></div>
+									</div>
+									
+									<button style="font-size:1.2vw;  padding: 1vw;border-radius: 1vw;color: white;border: 0;padding-top: 0.8vw;background:rgb(233, 16, 67);margin-right: 1vw;"><a class="nG">1</a>gourmande +10DT=<a class="prixG">25</a>DT </button>
 									  
 
                                   </div>
@@ -1454,7 +1519,7 @@ h4 a:active {
 			
 		</div>
      <div style="text-align:center;">
-		<h5 class="h6" ><a href="#ajouterfacture" style="font-size: 2.1vw;padding-left:8vw ; padding-right:8vw ;color: white; " id="total1">Total/Ajouter au Panier</a></h5> 
+		<h5 class="h6" id="pa1"><a href="#ajouterfacture" style="font-size: 2.1vw;padding-left:8vw ; padding-right:8vw ;color: white; " ><b id="total1">Total</b> en dt/Ajouter au Panier</a></h5> 
 	</div>
 	</section>
 
@@ -1482,7 +1547,7 @@ h4 a:active {
 	  
 	 
 	         <button class="text5" style="padding: 0;border: none;" 
-			 onclick="document.getElementById('id20').style.display='block'" class="w3-button w3-black"
+			 onclick="document.getElementById('id20').style.display='block'" class="w3-button w3-black annif"
 			 ><h4 class="h6" style="padding: 0;"><a href="#CHOIX" style="font-size: 1.5vw " id="choix">Commander</a></h4> 
 			 </button>
 			</div> 
@@ -1491,7 +1556,7 @@ h4 a:active {
 	<img src="ann2.jpg" alt="annif2" width="100%" height="100%" class="carophoto">
 
 	<button class="text5" style="padding: 0;border: none;" 
-	onclick="document.getElementById('id21').style.display='block'" class="w3-button w3-black"
+	onclick="document.getElementById('id21').style.display='block'" class="w3-button w3-black annif"
 	><h4 class="h6" style="padding: 0;"><a href="#CHOIX1" style="font-size: 1.5vw " id="choix">Commander</a></h4> 
 	</button>
   </div>
@@ -1501,7 +1566,7 @@ h4 a:active {
 	<img src="ann3.jpg" alt="annif3" width="100%" height="100%" class="carophoto">
 
 	<button class="text5" style="padding: 0;border: none;" 
-	onclick="document.getElementById('id22').style.display='block'" class="w3-button w3-black"
+	onclick="document.getElementById('id22').style.display='block'" class="w3-button w3-black annif"
 	><h4 class="h6" style="padding: 0;"><a href="#CHOIX3" style="font-size: 1.5vw " id="choix">Commander</a></h4> 
 	</button>
   </div>
@@ -1511,7 +1576,7 @@ h4 a:active {
 	<img src="ann4.jpg" alt="annif4" width="100%" height="100%" class="carophoto">
 
 	<button class="text5" style="padding: 0;border: none;" 
-	onclick="document.getElementById('id23').style.display='block'" class="w3-button w3-black"
+	onclick="document.getElementById('id23').style.display='block'" class="w3-button w3-black annif"
 	><h4 class="h6" style="padding: 0;"><a href="#CHOIX4" style="font-size: 1.5vw " id="choix">Commander</a></h4> 
 	</button>
 
@@ -1520,7 +1585,7 @@ h4 a:active {
 	<img src="ANN5.jpg" alt="annif5" width="100%" height="100%" class="carophoto">
 
 	<button class="text5" style="padding: 0;border: none;" 
-	onclick="document.getElementById('id24').style.display='block'" class="w3-button w3-black"
+	onclick="document.getElementById('id24').style.display='block'" class="w3-button w3-black annif"
 	><h4 class="h6" style="padding: 0;"><a href="#CHOIX5" style="font-size: 1.5vw " id="choix">Commander</a></h4> 
 	</button>
   </div>
@@ -1528,7 +1593,7 @@ h4 a:active {
 	<img src="ANN6.jpg" alt="annif6" width="100%" height="100%" class="carophoto">
 
 	<button class="text5" style="padding: 0;border: none;" 
-	onclick="document.getElementById('id25').style.display='block'" class="w3-button w3-black"
+	onclick="document.getElementById('id25').style.display='block'" class="w3-button w3-black annif"
 	><h4 class="h6" style="padding: 0;"><a href="#CHOIX6" style="font-size: 1.5vw " id="choix">Commander</a></h4> 
 	</button>
   </div>
@@ -1536,7 +1601,7 @@ h4 a:active {
 	<img src="ANN7.jpg" alt="annif7" width="100%" height="100%" class="carophoto">
 
 	<button class="text5" style="padding: 0;border: none;" 
-	onclick="document.getElementById('id26').style.display='block'" class="w3-button w3-black"
+	onclick="document.getElementById('id26').style.display='block'" class="w3-button w3-black annif"
 	><h4 class="h6" style="padding: 0;"><a href="#CHOIX7" style="font-size: 1.5vw " id="choix">Commander</a></h4> 
 	</button>
 
@@ -1545,7 +1610,7 @@ h4 a:active {
 	<img src="ann8.jpg" alt="annif8" width="100%" height="100%" class="carophoto">
 
 	<button class="text5" style="padding: 0;border: none;" 
-	onclick="document.getElementById('id27').style.display='block'" class="w3-button w3-black"
+	onclick="document.getElementById('id27').style.display='block'" class="w3-button w3-black annif"
 	><h4 class="h6" style="padding: 0;"><a href="#CHOIX8" style="font-size: 1.5vw " id="choix">Commander</a></h4> 
 	</button>
 
@@ -1560,7 +1625,7 @@ h4 a:active {
 	<div class="w3-modal-content">
 	  <div class="w3-container">
 		<span onclick="document.getElementById('id20').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-		<h3 style="text-align:left ;"><a style="color:rgb(53, 32, 9) ;text-decoration: none ;font-size:  50px ;">Gâteau <a style="color:rgb(113, 178, 48);font-size:  50px ;">m</a><a style="color:rgb(53, 32, 9);font-size:  50px ;">&</a><a style="color:rgb(233, 16, 67);font-size:  50px ;">ms</a> <a style="color:rgb(53, 32, 9);font-size:  50px ;">à 70dt</a></a> </h3>
+		<h3 style="text-align:left ;"><a style="color:rgb(53, 32, 9) ;text-decoration: none ;font-size:  50px ;">Gâteau <a style="color:rgb(113, 178, 48);font-size:  50px ;">m</a><a style="color:rgb(53, 32, 9);font-size:  50px ;">&</a><a style="color:rgb(233, 16, 67);font-size:  50px ;">ms</a> <a style="color:rgb(53, 32, 9);font-size:  50px ;">à <b class="prixannif">70</b>dt</a></a> </h3>
 									<p style="text-align:left ;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 1.5vw;">Ce model est de diametre 30 cm composé de  </p>
 									<ul style="text-align:left ;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 									font-size: 1.2vw;">
@@ -1596,7 +1661,7 @@ h4 a:active {
 	<div class="w3-modal-content">
 	  <div class="w3-container">
 		<span onclick="document.getElementById('id21').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-		<h3 style="text-align:left ;"><a style="color:rgb(53, 32, 9) ;text-decoration: none ;font-size:  50px ;">Gâteau xl choco<a style="color:rgb(113, 178, 48);font-size:  50px ;">l</a><a style="color:rgb(53, 32, 9);font-size:  50px ;">a</a><a style="color:rgb(233, 16, 67);font-size:  50px ;">t</a> <a style="color:rgb(53, 32, 9);font-size:  50px ;">à 90dt</a></a> </h3>
+		<h3 style="text-align:left ;"><a style="color:rgb(53, 32, 9) ;text-decoration: none ;font-size:  50px ;">Gâteau xl choco<a style="color:rgb(113, 178, 48);font-size:  50px ;">l</a><a style="color:rgb(53, 32, 9);font-size:  50px ;">a</a><a style="color:rgb(233, 16, 67);font-size:  50px ;">t</a> <a style="color:rgb(53, 32, 9);font-size:  50px ;">à <b class="prixannif">90</b>dt</a></a> </h3>
 									<p style="text-align:left ;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 1.5vw;">Ce model est de diametre 30 cm composé de  </p>
 									<ul style="text-align:left ;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 									font-size: 1.2vw;">
@@ -1635,7 +1700,7 @@ h4 a:active {
 	<div class="w3-modal-content">
 	  <div class="w3-container">
 		<span onclick="document.getElementById('id22').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-		<h3 style="text-align:left ;"><a style="color:rgb(53, 32, 9) ;text-decoration: none ;font-size:  50px ;">Gâteau Pass<a style="color:rgb(113, 178, 48);font-size:  50px ;">i</a><a style="color:rgb(53, 32, 9);font-size:  50px ;">o</a><a style="color:rgb(233, 16, 67);font-size:  50px ;">n</a> <a style="color:rgb(53, 32, 9);font-size:  50px ;">à 70dt</a></a> </h3>
+		<h3 style="text-align:left ;"><a style="color:rgb(53, 32, 9) ;text-decoration: none ;font-size:  50px ;">Gâteau Pass<a style="color:rgb(113, 178, 48);font-size:  50px ;">i</a><a style="color:rgb(53, 32, 9);font-size:  50px ;">o</a><a style="color:rgb(233, 16, 67);font-size:  50px ;">n</a> <a style="color:rgb(53, 32, 9);font-size:  50px ;">à <b class="prixannif">70</b>dt</a></a> </h3>
 									<p style="text-align:left ;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 1.5vw;">Ce model est de diametre 30 cm composé de  </p>
 									<ul style="text-align:left ;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 									font-size: 1.2vw;">
@@ -1673,7 +1738,7 @@ h4 a:active {
 	<div class="w3-modal-content">
 	  <div class="w3-container">
 		<span onclick="document.getElementById('id23').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-		<h3 style="text-align:left ;"><a style="color:rgb(53, 32, 9) ;text-decoration: none ;font-size:  50px ;">Gâteau Noise<a style="color:rgb(113, 178, 48);font-size:  50px ;">t</a><a style="color:rgb(53, 32, 9);font-size:  50px ;">t</a><a style="color:rgb(233, 16, 67);font-size:  50px ;">e</a> <a style="color:rgb(53, 32, 9);font-size:  50px ;">à 80dt</a></a> </h3>
+		<h3 style="text-align:left ;"><a style="color:rgb(53, 32, 9) ;text-decoration: none ;font-size:  50px ;">Gâteau Noise<a style="color:rgb(113, 178, 48);font-size:  50px ;">t</a><a style="color:rgb(53, 32, 9);font-size:  50px ;">t</a><a style="color:rgb(233, 16, 67);font-size:  50px ;">e</a> <a style="color:rgb(53, 32, 9);font-size:  50px ;">à <b class="prixannif">80</b>dt</a></a> </h3>
 									<p style="text-align:left ;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 1.5vw;">Ce model est de diametre 30 cm composé de  </p>
 									<ul style="text-align:left ;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 									font-size: 1.2vw;">
@@ -1710,7 +1775,8 @@ h4 a:active {
 	<div class="w3-modal-content">
 	  <div class="w3-container">
 		<span onclick="document.getElementById('id24').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-		<h3 style="text-align:left ;"><a style="color:rgb(53, 32, 9) ;text-decoration: none ;font-size:  50px ;">Gâteau Choco-No<a style="color:rgb(113, 178, 48);font-size:  50px ;">i</a><a style="color:rgb(53, 32, 9);font-size:  50px ;">r</a><a style="color:rgb(233, 16, 67);font-size:  50px ;">e</a> <a style="color:rgb(53, 32, 9);font-size:  50px ;">à 70dt</a></a> </h3>
+		<h3 style="text-align:left ;"><a style="color:rgb(53, 32, 9) ;text-decoration: none ;font-size:  50px ;">Gâteau Choco-No<a style="color:rgb(113, 178, 48);font-size:  50px ;">i</a><a style="color:rgb(53, 32, 9);font-size:  50px ;">r</a><a style="color:rgb(233, 16, 67);font-size:  50px ;">e</a> <a style="color:rgb(53, 32, 9);font-size:  50px ;">à <b class="prixannif">70</b>dt</a></a> </h3>
+		
 									<p style="text-align:left ;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 1.5vw;">Ce model est de diametre 30 cm composé de  </p>
 									<ul style="text-align:left ;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 									font-size: 1.2vw;">
@@ -1747,7 +1813,7 @@ h4 a:active {
 	<div class="w3-modal-content">
 	  <div class="w3-container">
 		<span onclick="document.getElementById('id25').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-		<h3 style="text-align:left ;"><a style="color:rgb(53, 32, 9) ;text-decoration: none ;font-size:  50px ;">Gâteau <a style="color:rgb(113, 178, 48);font-size:  50px ;">B</a><a style="color:rgb(53, 32, 9);font-size:  50px ;">&</a><a style="color:rgb(233, 16, 67);font-size:  50px ;">W</a> <a style="color:rgb(53, 32, 9);font-size:  50px ;">à 90dt</a></a> </h3>
+		<h3 style="text-align:left ;"><a style="color:rgb(53, 32, 9) ;text-decoration: none ;font-size:  50px ;">Gâteau <a style="color:rgb(113, 178, 48);font-size:  50px ;">B</a><a style="color:rgb(53, 32, 9);font-size:  50px ;">&</a><a style="color:rgb(233, 16, 67);font-size:  50px ;">W</a> <a style="color:rgb(53, 32, 9);font-size:  50px ;">à <b class="prixannif"></b>90dt</a></a> </h3>
 									<p style="text-align:left ;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 1.5vw;">Ce model est de languer 35 cm et de largeur 30cm, composé de  </p>
 									<ul style="text-align:left ;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 									font-size: 1.2vw;">
@@ -1785,7 +1851,7 @@ h4 a:active {
 	<div class="w3-modal-content">
 	  <div class="w3-container">
 		<span onclick="document.getElementById('id26').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-		<h3 style="text-align:left ;"><a style="color:rgb(53, 32, 9) ;text-decoration: none ;font-size:  50px ;">Gâteau feuilles de la f<a style="color:rgb(113, 178, 48);font-size:  50px ;">o</a><a style="color:rgb(53, 32, 9);font-size:  50px ;">r</a><a style="color:rgb(233, 16, 67);font-size:  50px ;">ê</a><a style="color:rgb(53, 32, 9);font-size:  50px ;">t à 90dt</a></a> </h3>
+		<h3 style="text-align:left ;"><a style="color:rgb(53, 32, 9) ;text-decoration: none ;font-size:  50px ;">Gâteau feuilles de la f<a style="color:rgb(113, 178, 48);font-size:  50px ;">o</a><a style="color:rgb(53, 32, 9);font-size:  50px ;">r</a><a style="color:rgb(233, 16, 67);font-size:  50px ;">ê</a><a style="color:rgb(53, 32, 9);font-size:  50px ;">t à <b class="prixannif">90</b>dt</a></a> </h3>
 									<p style="text-align:left ;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 1.5vw;">Ce model est de diametre 30cm, composé de  </p>
 									<ul style="text-align:left ;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 									font-size: 1.2vw;">
@@ -1823,7 +1889,7 @@ h4 a:active {
 	<div class="w3-modal-content">
 	  <div class="w3-container">
 		<span onclick="document.getElementById('id27').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-		<h3 style="text-align:left ;"><a style="color:rgb(53, 32, 9) ;text-decoration: none ;font-size:  50px ;">Gâteau Pres<a style="color:rgb(113, 178, 48);font-size:  50px ;">t</a><a style="color:rgb(53, 32, 9);font-size:  50px ;">i</a><a style="color:rgb(233, 16, 67);font-size:  50px ;">g</a><a style="color:rgb(53, 32, 9);font-size:  50px ;">e à 120dt</a></a> </h3>
+		<h3 style="text-align:left ;"><a style="color:rgb(53, 32, 9) ;text-decoration: none ;font-size:  50px ;">Gâteau Pres<a style="color:rgb(113, 178, 48);font-size:  50px ;">t</a><a style="color:rgb(53, 32, 9);font-size:  50px ;">i</a><a style="color:rgb(233, 16, 67);font-size:  50px ;">g</a><a style="color:rgb(53, 32, 9);font-size:  50px ;">e à <b class="prixannif">120</b>dt</a></a> </h3>
 									<p style="text-align:left ;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 1.5vw;">Ce model est de diametre 30cm, composé de  </p>
 									<ul style="text-align:left ;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 									font-size: 1.2vw;">
@@ -1859,7 +1925,7 @@ h4 a:active {
 </div>
 
 <div style="text-align:center;background: white;padding-bottom: 2vw;">
-	<h5 class="h6" ><a href="#ajouterfacture1" style="font-size: 2.1vw;padding-left:8vw ; padding-right:8vw ;color: white; " id="total2">Total/Ajouter au Panier</a></h5> 
+	<h5 class="h6"  id="pa2"><a href="#ajouterfacture1" style="font-size: 2.1vw;padding-left:8vw ; padding-right:8vw ;color: white; " ><b id="total2">Total</b> en DT/Ajouter au Panier</a></h5> 
 </div>
 	</section>
 
@@ -1946,7 +2012,7 @@ h4 a:active {
 				
 					  <br>
 					  <div style="text-align: center;">
-					  <button type="submit" class="btn btn-primary" style="background:rgb(233, 16, 67);border: none;font-size: 20px;"><a href="file:///C:/Users/21654/Desktop/sweetity/sweet.html?" style="text-decoration:none; color:white">Submit</a></button>
+					  <button type="submit" class="btn btn-primary" style="background:rgb(233, 16, 67);border: none;font-size: 20px;"><a href="file:///C:/Users/21654/Desktop/sweetity/sweet.html?" style="text-decoration:none; color:white" id="ray">Envoyez</a></button>
 					 </div>
 					</form>
 											
@@ -1969,8 +2035,10 @@ h4 a:active {
                 <div class="col item social"><a href="https://www.facebook.com/amal.rekik.98"><i class="icon ion-social-facebook"></i></a><a href=https://github.com/amalrekik><i class="icon ion-social-github"></i></a><a href="file:///C:/Users/21654/Desktop/sweetity/Sweetity.html#"><ion-icon name="nutrition"></ion-icon></a><a href="#"><i class="icon ion-social-whatsapp"></i></a></div>
         
             <p class="copyright">SweeTity © 2022 <br> re.amal@yahoo.com</p>
+		
     </footer>
 </div>
+<script src="sweetity.js"></script>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -1979,7 +2047,8 @@ h4 a:active {
 
 
 
-	<script src="/path/to/flickity.pkgd.min.js"></script>
+	
+	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
